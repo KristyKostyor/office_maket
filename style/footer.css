@@ -1,0 +1,44 @@
+.footer {
+    max-width: 1600px;
+    max-height: 158px;
+    background-color: #2F324B;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0;
+}
+
+.footer__logo-block {
+    display: flex;
+    align-items: center;
+}
+
+.footer__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: var(--main-color);
+}
+
+.footer svg {
+    margin-right: 19px;
+}
+
+.footer__tel {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--main-color);
+
+}
+
+.footer__recall {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--main-color);
+    text-decoration: underline;
+}
