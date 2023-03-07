@@ -1,5 +1,5 @@
 .footer {
-    max-height: 158px;
+    padding: 45px 0;
     background-color: #2F324B;
 }
 
@@ -7,7 +7,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 45px 0;
 }
 
 .footer__logo-block {
