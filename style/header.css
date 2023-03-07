@@ -1,7 +1,7 @@
 .header {
     background-image: url('../img/background.png');
     background-repeat: no-repeat;
-    height: 80vh;
+
     background-size: cover;
     background-position: center;
 }
@@ -64,7 +64,7 @@
     color: var(--main-color);
 }
 
-.header__nav-text_size {
+.header__nav-text-size {
     color: var(--main-color);
     font-size: 16px;
     line-height: 19px;
@@ -113,7 +113,7 @@
 }
 
 .header__nav-text,
-.header__nav-text_size {
+.header__nav-text-size {
     padding-right: 30px;
 }
 
@@ -155,7 +155,7 @@
     }
 
     .header__nav-text,
-    .header__nav-text_size {
+    .header__nav-text-size {
         display: none;
     }
 
