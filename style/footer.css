@@ -45,7 +45,7 @@
     display: none;
 }
 
-.footer__text-author {
+.footer__text__author-mobile {
     display: none;
 
 }
@@ -80,6 +80,10 @@
     }
 
     .footer__text-author {
+        display: none;
+    }
+
+    footer__text-author {
         display: none;
     }
 
