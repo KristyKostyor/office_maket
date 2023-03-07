@@ -119,7 +119,7 @@
 
 @media all and (max-width:480px) {
     .about-us {
-        height: 140vh;
+        height: 170vh;
     }
 
     .about-us__text {
