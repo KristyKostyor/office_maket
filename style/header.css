@@ -16,7 +16,9 @@
     margin: 0 0 35px 0;
 
 }
-
+.wrapper {
+    max-width: 960px;
+}
 .header__text {
     font-size: 22px;
     line-height: 31px;
