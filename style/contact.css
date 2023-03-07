@@ -33,7 +33,8 @@
     margin-bottom: 50px;
 }
 
-.contact input {
+.contact__input-name,
+.contact__input-tel {
     width: 423px;
     height: 44px;
     border: 1.38235px solid var(--main-color);
@@ -49,7 +50,12 @@
     padding: 9px 296px 9px 25px;
 }
 
-.contact input:last-child {
+.contact__input-mail {
+    width: 423px;
+    height: 44px;
+    border: 1.38235px solid var(--main-color);
+    background: transparent;
+    border-radius: 50px;
     margin-bottom: 50px;
 }
 
