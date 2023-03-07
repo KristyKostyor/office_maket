@@ -1,15 +1,12 @@
 .about-us {
     padding-top: 70px;
-    padding-bottom: 70px;
-    width: 1600px;
-    height: 596px;
+
+    height: 80vh;
     background-color: var(--main-color);
 }
 
 .wrapper {
     position: relative;
-    width: 990px;
-    height: 384px;
     margin: auto;
 }
 
@@ -45,8 +42,7 @@
 }
 
 .about-us__text {
-    width: 724px;
-    height: 83px;
+    max-width: 724px;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -72,8 +68,6 @@
 }
 
 .about-us__text-circle {
-    width: 196px;
-    height: 57px;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
@@ -81,4 +75,98 @@
     color: var(--dark-gray);
     margin-bottom: 70px;
 
+}
+
+ @media all and (max-width:1024px) {
+    .about-us__title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .about-us__sign {
+        width: 40px;
+    }
+
+    .about-us__subtitle {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .about-us__text {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .about-us__text-circle {
+        max-width: 180px;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 0;
+    
+    }
+.about-us__circle-block{
+    justify-content: center;
+    gap:20px;
+}
+.about-us{
+    height: auto;
+}
+.about-us__cicrle-content{
+    padding-bottom: 70px;
+}
+ }
+
+
+@media all and (max-width:480px) {
+    .about-us {
+        height: 140vh;
+    }
+
+    .about-us__text {
+        max-width: 290px;
+    }
+
+    .wrapper {
+        max-width: 290px;
+    }
+
+    .about-us__title {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 15px;
+    }
+
+    .about-us__circle-block {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .about-us__sign {
+        width: 19.71px;
+        height: 1px;
+    }
+
+    .about-us__subtitle {
+        font-size: 16px;
+        line-height: 19px;
+        padding: 0 21px;
+    }
+
+    .about-us__text-block {
+        margin-bottom: 26px;
+    }
+
+    .about-us__text {
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 40px;
+    }
+
+    .about-us__text-circle {
+        max-width: 166px;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
 }
