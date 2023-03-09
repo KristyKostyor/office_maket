@@ -10,10 +10,11 @@
 
 .about-us__title {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 33px;
     line-height: 41px;
     text-align: center;
     margin-bottom: 25px;
+    margin-right: 3px;
 }
 
 .about-us__text-block {
@@ -62,20 +63,22 @@
 }
 
 .about-us__circle-wrap {
-    margin-bottom: 16px;
+    margin-bottom: 20px;
+    margin-left: 14px;
+
 }
 
 .about-us__text-circle {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
     text-align: center;
     color: var(--dark-gray);
-    margin-bottom: 70px;
+    margin-bottom: 72px;
 
 }
 
- @media all and (max-width:1024px) {
+@media all and (max-width:1024px) {
     .about-us__title {
         font-size: 32px;
         line-height: 38px;
@@ -100,19 +103,22 @@
         font-size: 18px;
         line-height: 25px;
         margin-bottom: 0;
-    
+
     }
-.about-us__circle-block{
-    justify-content: center;
-    gap:20px;
+
+    .about-us__circle-block {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .about-us {
+        height: auto;
+    }
+
+    .about-us__cicrle-content {
+        padding-bottom: 70px;
+    }
 }
-.about-us{
-    height: auto;
-}
-.about-us__cicrle-content{
-    padding-bottom: 70px;
-}
- }
 
 
 @media all and (max-width:480px) {

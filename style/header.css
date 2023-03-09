@@ -9,18 +9,20 @@
 
 .header__title {
     font-weight: 900;
-    font-size: 52px;
+    font-size: 50px;
     line-height: 61px;
     text-align: center;
     color: rgba(255, 255, 255, 0.86);
-    margin: 0 0 35px 0;
+    margin: -4px -9px 30px -7px;
 
 }
+
 .wrapper {
     max-width: 960px;
 }
+
 .header__text {
-    font-size: 22px;
+    font-size: 21.7px;
     line-height: 31px;
     text-align: center;
     color: rgba(255, 255, 255, 0.75);
@@ -52,7 +54,7 @@
 }
 
 .header__nav-text {
-    font-size: 23.85px;
+    font-size: 23.66px;
     line-height: 28px;
     text-align: center;
     color: var(--main-color);
@@ -106,10 +108,7 @@
     }
 }
 
-.header__nav-text,
-.header__nav-text-size {
-    padding-right: 30px;
-}
+
 
 @media all and (max-width:768px) {
 
